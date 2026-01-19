@@ -1,0 +1,605 @@
+[
+  {
+    "slug": "plumbing",
+    "name": "Plumbing",
+    "meta_title": "Invoice Template for Plumbers",
+    "description": "Professional invoice templates for plumbing services. Download free or generate online.",
+    "hero_title": "Free Plumbing Invoice Template",
+    "hero_subtitle": "Download, customize, and convert more leads with professional plumbing invoices.",
+    "why_need_section": {
+      "title": "Why Plumbers Need Professional Invoices",
+      "content": "From emergency leaks to full installations, plumbing jobs vary in scale and cost. A professional invoice clearly breaks down labor, parts, and emergency fees, helping you get paid faster and maintain a trusted reputation with homeowners and contractors alike."
+    },
+    "what_to_include": [
+      "Your Business Name & Contact Info",
+      "Client Name & Address",
+      "Date of Service & Invoice Number",
+      "Description of Service (e.g., 'Leak Repair', 'Pipe Installation')",
+      "Itemized Parts List (e.g., 'PVC Pipe', 'Fittings')",
+      "Labor Hours & Rate",
+      "Emergency/After-Hours Fees (if applicable)",
+      "Total Amount Due & Payment Terms"
+    ],
+    "faq": [
+      {
+        "question": "How do I invoice for emergency plumbing repairs?",
+        "answer": "Clearly list the service date and time, and include a separate line item for 'Emergency Call-Out Fee' or 'After-Hours Surcharge' to verify the higher rate."
+      },
+      {
+        "question": "Should I charge for parts markup?",
+        "answer": "Yes, it is standard practice to mark up parts by 10-30% to cover the time spent sourcing and transporting them."
+      }
+    ]
+  },
+  {
+    "slug": "electrical",
+    "name": "Electrical",
+    "meta_title": "Invoice Template for Electricians",
+    "description": "Professional invoice templates for electrical works. Download free or generate online.",
+    "hero_title": "Free Electrical Invoice Template",
+    "hero_subtitle": "Spark professionalism with every job. Download our free electrician invoice template.",
+    "why_need_section": {
+      "title": "Why Electricians Need Detailed Invoices",
+      "content": "Electrical work often involves safety inspections, complex wiring, and expensive components. A detailed invoice provides a record of the work performed for safety compliance and helps clients understand the value of your specialized skills."
+    },
+    "what_to_include": [
+      "License Number (Important for Electricians)",
+      "Job Location & Date",
+      "Detailed Labor Description (e.g., 'Rewiring', 'Panel Upgrade')",
+      "List of Materials (e.g., 'Breakers', 'Wire')",
+      "Permit Fees (if applicable)",
+      "Warranty Information on Parts/Labor",
+      "Payment Due Date"
+    ],
+    "faq": [
+      {
+        "question": "Do I need to put my license number on the invoice?",
+        "answer": "Yes, in many jurisdictions, displaying your electrical license number on invoices is a legal requirement and builds trust with the client."
+      },
+      {
+        "question": "How do I bill for troubleshooting time?",
+        "answer": "Bill this as 'Diagnostic Labor'. Be clear upfront that troubleshooting is billable time, even if a major repair isn't performed immediately."
+      }
+    ]
+  },
+  {
+    "slug": "hvac",
+    "name": "HVAC",
+    "meta_title": "Invoice Template for HVAC Technicians",
+    "description": "Professional invoice templates for HVAC services. Download free or generate online.",
+    "hero_title": "Free HVAC Invoice Template",
+    "hero_subtitle": "Keep your cash flow flowing. Professional invoices for heating and cooling experts.",
+    "why_need_section": {
+      "title": "The Importance of Invoicing for HVAC",
+      "content": "HVAC systems are significant investments for property owners. Your invoice serves as a receipt for warranty purposes and maintenance records. Clear invoicing for seasonal tune-ups vs. major repairs helps avoid payment disputes."
+    },
+    "what_to_include": [
+      "Unit Model/Serial Number (for warranty)",
+      "Service Performed (e.g., 'AC Tune-up', 'Furnace Repair')",
+      "Refrigerant Usage (lbs/oz)",
+      "Parts Repleced (e.g., 'Capacitor', 'Filter')",
+      "Labor Hours",
+      "Next Service Recommendation",
+      "Total Costs & Payment Methods"
+    ],
+    "faq": [
+      {
+        "question": "Should I include the equipment warranty on the invoice?",
+        "answer": "Absolutely. State the manufacturer warranty and any additional labor warranty you provide. This adds immense value to your service."
+      },
+      {
+        "question": "How to invoice for seasonal maintenance contracts?",
+        "answer": "You can send a single invoice for the annual contract or invoice per visit with a line item 'Service under Annual Maintenance Agreement - $0.00 Due'."
+      }
+    ]
+  },
+  {
+    "slug": "cleaning",
+    "name": "Cleaning",
+    "meta_title": "Invoice Template for Cleaning Services",
+    "description": "Professional invoice templates for cleaning businesses. Download free or generate online.",
+    "hero_title": "Free Cleaning Service Invoice Template",
+    "hero_subtitle": "Spotless invoices for your cleaning business. Download and customize in seconds.",
+    "why_need_section": {
+      "title": "Why Cleaning Businesses Need Professional Invoices",
+      "content": "Whether residential or commercial, cleaning clients appreciate reliability. A consistent, professional invoice reinforces that you run a trustworthy business and helps track recurring payments from regular clients."
+    },
+    "what_to_include": [
+      "Frequency of Service (e.g., 'Weekly', 'Bi-weekly')",
+      "Specific Areas Cleaned (e.g., 'Kitchen', 'Bathrooms', 'Office Suite')",
+      "Supplies Fee (if not included)",
+      "Flat Rate or Hourly Rate",
+      "Date of Service",
+      "Payment Terms (e.g., 'Due on Receipt')"
+    ],
+    "faq": [
+      {
+        "question": "Should I charge by the hour or a flat rate?",
+        "answer": "Most cleaning businesses prefer flat rates for recurring clients as it rewards efficiency, while hourly rates are better for deep cleans or one-off jobs."
+      },
+      {
+        "question": "How do I handle late payments?",
+        "answer": "Include a clear 'Due Date' on your invoice. For recurring clients, consider requesting a credit card on file for automatic billing."
+      }
+    ]
+  },
+  {
+    "slug": "landscaping",
+    "name": "Landscaping",
+    "meta_title": "Invoice Template for Landscapers",
+    "description": "Professional invoice templates for landscaping and gardening. Download free or generate online.",
+    "hero_title": "Free Landscaping Invoice Template",
+    "hero_subtitle": "Grow your business with professional invoices. Perfect for lawn care and landscaping.",
+    "why_need_section": {
+      "title": "Streamline Your Landscaping Billing",
+      "content": "From weekly mowing to big design projects, landscaping billing can get messy. A clear invoice distinguishes between routine maintenance and one-time material costs like mulch or plants, ensuring you aren't out of pocket."
+    },
+    "what_to_include": [
+      "Property Address",
+      "Service Description (e.g., 'Mowing', 'Mulching', 'Tree Trimming')",
+      "Materials Used (e.g., 'Yards of Mulch', 'Plants')",
+      "Labor Costs",
+      "Weather Delays (if relevant to scheduling)",
+      "Seasonal Surcharges"
+    ],
+    "faq": [
+      {
+        "question": "How to invoice for seasonal contracts?",
+        "answer": "Divide the annual cost by 12 for a monthly flat rate, assisting with cash flow in the winter months."
+      },
+      {
+        "question": "Should I itemize plants and materials?",
+        "answer": "Yes, clients often want to verify which plants were purchased. It also allows you to show transparency in your material markup."
+      }
+    ]
+  },
+  {
+    "slug": "handyman",
+    "name": "Handyman",
+    "meta_title": "Invoice Template for Handyman Services",
+    "description": "Professional invoice templates for general repair and handyman work. Download free or generate online.",
+    "hero_title": "Free Handyman Invoice Template",
+    "hero_subtitle": "Fix your billing process. Simple, professional invoices for every repair job.",
+    "why_need_section": {
+      "title": "Why Handymen Need Clear Invoices",
+      "content": "Handyman work covers a vast array of tasks. A detailed invoice serves as a job log, proving exactly what was fixed, which is crucial for landlords and property managers who need records for expense tracking."
+    },
+    "what_to_include": [
+      "List of Tasks Completed",
+      "Time Spent per Task (if hourly)",
+      "Materials Purchased (attach receipts if required)",
+      "Trip Charge (if applicable)",
+      "Total Cost",
+      "Payment Instructions"
+    ],
+    "faq": [
+      {
+        "question": "Can I charge for travel time?",
+        "answer": "Yes, many handymen charge a 'Trip Charge' or minimum service fee to cover the cost of getting to the job site."
+      },
+      {
+        "question": "How to handle small material purchases?",
+        "answer": "You can group small items (screws, nails) under 'Consumables' or 'Shop Supplies' rather than itemizing every single screw."
+      }
+    ]
+  },
+  {
+    "slug": "painting",
+    "name": "Painting",
+    "meta_title": "Invoice Template for Painters",
+    "description": "Professional invoice templates for painting contractors. Download free or generate online.",
+    "hero_title": "Free Painting Invoice Template",
+    "hero_subtitle": "Brush up your business with professional invoices for painting contractors.",
+    "why_need_section": {
+      "title": "Professional Invoicing for Painters",
+      "content": "Painting jobs often involve deposits and final payments. A professional invoice tracks these partial payments and clearly defines the scope (e.g., 'Walls only', 'Trim included'), preventing scope creep disputes."
+    },
+    "what_to_include": [
+      "Rooms/Areas Painted",
+      "Paint Color & Brand Used (good for future reference)",
+      "Prep Work description",
+      "Materials (Paint, Tape, covering)",
+      "Labor Costs",
+      "Deposit Deducted"
+    ],
+    "faq": [
+      {
+        "question": "Should I ask for a deposit?",
+        "answer": "Yes, requesting a 30-50% deposit upfront to cover paint materials is standard industry practice."
+      },
+      {
+        "question": "How to detail the paint used?",
+        "answer": "List the brand, color name, and code. This is incredibly helpful for the client for future touch-ups and adds professional value."
+      }
+    ]
+  },
+  {
+    "slug": "roofing",
+    "name": "Roofing",
+    "meta_title": "Invoice Template for Roofing Contractors",
+    "description": "Professional invoice templates for roofing services. Download free or generate online.",
+    "hero_title": "Free Roofing Invoice Template",
+    "hero_subtitle": "Raise the roof on your revenue with professional roofing invoices.",
+    "why_need_section": {
+      "title": "Invoicing for Roofing Projects",
+      "content": "Roofing is a high-ticket service often paid via insurance. Your invoices must be meticulous, breaking down code upgrades, material specifications, and labor to maximize the client's insurance claim eligibility."
+    },
+    "what_to_include": [
+      "Project Location",
+      "Scope of Work (Tear off, new install)",
+      "Material Specs (Shingle type, underlayment)",
+      "Warranty Details",
+      "Payment Schedule",
+      "Insurance Claim Info (if applicable)"
+    ],
+    "faq": [
+      {
+        "question": "How to handle insurance jobs?",
+        "answer": "Ensure your invoice matches the adjuster's summary format where possible, using similar line item descriptions to speed up processing."
+      },
+      {
+        "question": "When should I send the final invoice?",
+        "answer": "Send it upon 'Substantial Completion' of the roof. Do not wait for minor gutter work if the roof itself is watertight and complete."
+      }
+    ]
+  },
+  {
+    "slug": "pest-control",
+    "name": "Pest Control",
+    "meta_title": "Invoice Template for Pest Control",
+    "description": "Professional invoice templates for pest control services. Download free or generate online.",
+    "hero_title": "Free Pest Control Invoice Template",
+    "hero_subtitle": "Eliminate billing headaches. Fast, effective invoices for pest control experts.",
+    "why_need_section": {
+      "title": "Documentation for Pest Control",
+      "content": "Pest control often involves chemicals and regulated substances. Your invoice acts as a service record, detailing what treatments were applied, where, and when—critical for safety and compliance."
+    },
+    "what_to_include": [
+      "Target Pest (e.g., 'Termites', 'Ants')",
+      "Chemicals/Products Applied (EPA Reg numbers if needed)",
+      "Application Areas",
+      "Warnings/Precautions for Resident",
+      "Next Scheduled Treatment",
+      "Total Cost"
+    ],
+    "faq": [
+      {
+        "question": "Do I need to list chemical names?",
+        "answer": "Yes, transparency is key. Listing the products used reassures the client and provides necessary safety information."
+      },
+      {
+        "question": "How to invoice for quarterly plans?",
+        "answer": "Send an invoice after each visit, but reference the plan: 'Quarterly Service Visit 2 of 4'. This reminds them of the ongoing value."
+      }
+    ]
+  },
+  {
+    "slug": "moving",
+    "name": "Moving",
+    "meta_title": "Invoice Template for Movers",
+    "description": "Professional invoice templates for moving companies. Download free or generate online.",
+    "hero_title": "Free Moving Company Invoice Template",
+    "hero_subtitle": "Keep your business moving forward with clear, itemized invoices.",
+    "why_need_section": {
+      "title": "Transparent Moving Invoices",
+      "content": "Moving quotes are often estimates. The final invoice must confirm the actual hours worked, weight moved, or packing materials used to justify the final bill and prevent sticker shock."
+    },
+    "what_to_include": [
+      "Origin & Destination Addresses",
+      "Move Date",
+      "Number of Movers & Hours Worked",
+      "Truck Fee / Fuel Surcharge",
+      "Packing Materials Used (Boxes, Tape)",
+      "Insurance/Valuation Coverage Cost"
+    ],
+    "faq": [
+      {
+        "question": "When should payment be collected?",
+        "answer": "It is common to collect payment upon delivery, before unloading the truck, or immediately after unloading is complete."
+      },
+      {
+        "question": "How to charge for packing materials?",
+        "answer": "Count the used boxes at the end of the day and add them to the final bill. Be clear if used boxes are returnable for credit."
+      }
+    ]
+  },
+  {
+    "slug": "locksmith",
+    "name": "Locksmith",
+    "meta_title": "Invoice Template for Locksmiths",
+    "description": "Professional invoice templates for locksmith services. Download free or generate online.",
+    "hero_title": "Free Locksmith Invoice Template",
+    "hero_subtitle": "Unlock faster payments with professional locksmith invoices.",
+    "why_need_section": {
+      "title": "Invoicing for Security Services",
+      "content": "Locksmiths often work odd hours for emergencies. Your invoice should clearly state the premium for emergency service and detailed part numbers for keys or locks, which is useful for security records."
+    },
+    "what_to_include": [
+      "Service Call Fee",
+      "Emergency Surcharge (if applicable)",
+      "Labor Time",
+      "Parts (Locks, Cylinders, Keys)",
+      "Key Codes (Optional/Secure)",
+      "Total Due"
+    ],
+    "faq": [
+      {
+        "question": "How much is an emergency call-out fee?",
+        "answer": "This varies, but it's often 1.5x to 2x the standard service call rate. List it clearly on the invoice."
+      },
+      {
+        "question": "Should I mask key codes on the invoice?",
+        "answer": "Yes, for security, avoid printing meaningful key bitting codes on a standard invoice unless the client specifically requests it for their records."
+      }
+    ]
+  },
+  {
+    "slug": "flooring",
+    "name": "Flooring",
+    "meta_title": "Invoice Template for Flooring Contractors",
+    "description": "Professional invoice templates for flooring installation and repair. Download free or generate online.",
+    "hero_title": "Free Flooring Invoice Template",
+    "hero_subtitle": "Lay the groundwork for success with solid flooring invoices.",
+    "why_need_section": {
+      "title": "Detailed Flooring Estimates & Invoices",
+      "content": "Flooring relies heavily on square footage accuracy. Invoices should reflect the actual measured area plus waste factor, ensuring the client understands they are paying for the material ordered, not just the net floor area."
+    },
+    "what_to_include": [
+      "Material Description (Brand, Style, Color)",
+      "Square Footage Installed",
+      "Price per Sq Ft",
+      "Labor Costs (Install, Demo, Prep)",
+      "Transition Strips/Baseboards",
+      "Total Amount"
+    ],
+    "faq": [
+      {
+        "question": "How to account for waste?",
+        "answer": "Bill for the full amount of material ordered (e.g., +10% for waste), as you cannot return cut pieces."
+      },
+      {
+        "question": "Do I charge for moving furniture?",
+        "answer": "Yes, if your crew moves furniture, include a line item for 'Furniture Manipulation' to cover the liability and labor."
+      }
+    ]
+  },
+  {
+    "slug": "drywall",
+    "name": "Drywall",
+    "meta_title": "Invoice Template for Drywall Contractors",
+    "description": "Professional invoice templates for drywall and plastering. Download free or generate online.",
+    "hero_title": "Free Drywall Invoice Template",
+    "hero_subtitle": "Smooth billing for drywall and plastering professionals.",
+    "why_need_section": {
+      "title": "Invoicing for Drywall Services",
+      "content": "Drywall finishing has levels (Level 1-5). Specifying the finish level on the invoice manages expectations regarding smoothness and paint readiness, avoiding disputes after the work is dry."
+    },
+    "what_to_include": [
+      "Square Footage of Board Hung",
+      "Finish Level (e.g., Level 4 Smooth)",
+      "Materials (Sheetrock, Tape, Mud)",
+      "Labor (Hanging vs. Finishing)",
+      "Texture Type (if applicable)",
+      "Total"
+    ],
+    "faq": [
+      {
+        "question": "What is the unit of measure for drywall?",
+        "answer": "Typically priced per square foot of wall/ceiling area, or per sheet installed for smaller jobs."
+      },
+      {
+        "question": "How to invoice for patch repairs?",
+        "answer": "Use a minimum service charge or time-and-materials basis, as patch work is labor-intensive relative to the material cost."
+      }
+    ]
+  },
+  {
+    "slug": "carpentry",
+    "name": "Carpentry",
+    "meta_title": "Invoice Template for Carpenters",
+    "description": "Professional invoice templates for carpentry services. Download free or generate online.",
+    "hero_title": "Free Carpentry Invoice Template",
+    "hero_subtitle": "Craft perfect invoices. Tailored for finish and rough carpentry.",
+    "why_need_section": {
+      "title": "Custom Carpentry Formatting",
+      "content": "Custom carpentry (cabinets, built-ins) is bespoke. Invoices should detail the wood species, finish grade, and hardware chosen to justify the higher costs associated with custom craftsmanship."
+    },
+    "what_to_include": [
+      "Project Description (e.g., 'Custom Bookshelf')",
+      "Wood Species/Materials",
+      "Hardware Costs",
+      "Design/Shop Labor Hours",
+      "Installation Labor",
+      "Finish/Stain Work"
+    ],
+    "faq": [
+      {
+        "question": "Should I separate shop time from install time?",
+        "answer": "Yes, clients often don't see the hours spent in the shop. Itemizing 'Shop Fabrication' helps them understand the total effort."
+      },
+      {
+        "question": "How to charge for custom designs?",
+        "answer": "Include a 'Design Fee' if you provided drawings or 3D renderings before construction began."
+      }
+    ]
+  },
+  {
+    "slug": "masonry",
+    "name": "Masonry",
+    "meta_title": "Invoice Template for Masons",
+    "description": "Professional invoice templates for masonry and bricklaying. Download free or generate online.",
+    "hero_title": "Free Masonry Invoice Template",
+    "hero_subtitle": "Build a solid business foundation with professional masonry invoices.",
+    "why_need_section": {
+      "title": "billing for Brick and Stone",
+      "content": "Masonry is durable but expensive. Invoices must clearly differentiate between material costs (stone, brick, mortar) and the skilled labor required to lay them, which is often the bulk of the cost."
+    },
+    "what_to_include": [
+      "Type of Stone/Brick",
+      "Square Footage or Linear Feet",
+      "Foundation/Prep Work",
+      "Labor Costs",
+      "Equipment Rental (Mixers, Scaffolding)",
+      "Cleanup/Disposal Fees"
+    ],
+    "faq": [
+      {
+        "question": "How to invoice for matching existing brick?",
+        "answer": "Note that 'closest match available' was used if an exact match isn't possible, to protect against aesthetic complaints."
+      },
+      {
+        "question": "Do I charge for curing time?",
+        "answer": "No, but you should invoice for the return trip if you need to come back to clean or seal the masonry after it cures."
+      }
+    ]
+  },
+  {
+    "slug": "appliance-repair",
+    "name": "Appliance Repair",
+    "meta_title": "Invoice Template for Appliance Repair",
+    "description": "Professional invoice templates for appliance repair technicians. Download free or generate online.",
+    "hero_title": "Free Appliance Repair Invoice Template",
+    "hero_subtitle": "Get paid for your expertise. Invoices for appliance technicians.",
+    "why_need_section": {
+      "title": "Repair vs. Replace Documentation",
+      "content": "Your invoice often helps a client decide between fixing or buying new. Breaking down the cost of the specific part vs. the labor helps them see the value in the repair."
+    },
+    "what_to_include": [
+      "Appliance Make/Model/Serial",
+      "Complaint/Issue Reported",
+      "Diagnosis Code/Notes",
+      "Parts Installed (Part #)",
+      "Labor Charge",
+      "Service Call Fee"
+    ],
+    "faq": [
+      {
+        "question": "What if I diagnose it but they don't want to repair?",
+        "answer": "Charge a 'Diagnostic Fee' or 'Service Call Fee' regardless of whether the repair is performed."
+      },
+      {
+        "question": "How to handle warranty parts?",
+        "answer": "List the part cost as $0.00 (Warranty) but charge for the labor and service call to install it."
+      }
+    ]
+  },
+  {
+    "slug": "auto-detailing",
+    "name": "Auto Detailing",
+    "meta_title": "Invoice Template for Auto Detailing",
+    "description": "Professional invoice templates for car detailing businesses. Download free or generate online.",
+    "hero_title": "Free Auto Detailing Invoice Template",
+    "hero_subtitle": "Shine in your business. Slick invoices for professional detailers.",
+    "why_need_section": {
+      "title": "Upselling with Invoices",
+      "content": "Detailing offers many add-ons (clay bar, ceramic coating). An itemized invoice highlights the premium services performed, reinforcing the value and quality of the result."
+    },
+    "what_to_include": [
+      "Vehicle Make/Model/Year",
+      "Service Package (e.g., 'Full Interior/Exterior')",
+      "Add-ons (e.g., 'Headlight Restoration')",
+      "Condition Notes (Pre-existing scratches)",
+      "Total Price",
+      "Next Scheduled Detail"
+    ],
+    "faq": [
+      {
+        "question": "Should I note vehicle condition?",
+        "answer": "Yes! Always note pre-existing damage on the invoice to protect yourself from liability claims."
+      },
+      {
+        "question": "How do I charge for oversized vehicles?",
+        "answer": "Have a standard surcharge line item for 'Oversized/SUV/Truck' to account for the extra surface area."
+      }
+    ]
+  },
+  {
+    "slug": "pool-service",
+    "name": "Pool Service",
+    "meta_title": "Invoice Template for Pool Services",
+    "description": "Professional invoice templates for pool maintenance and cleaning. Download free or generate online.",
+    "hero_title": "Free Pool Service Invoice Template",
+    "hero_subtitle": "Crystal clear billing. Invoices for pool cleaning and maintenance.",
+    "why_need_section": {
+      "title": "Chemical Tracking & Billing",
+      "content": "Pool chemistry fluctuates. Your invoice should list the chemical readings (pH, chlorine) and the chemicals added. This justifies the chemical costs and proves the pool is being balanced correctly."
+    },
+    "what_to_include": [
+      "Service Date",
+      "Chemical Readings (pH, Alk, Cl)",
+      "Chemicals Added (Tabs, Shock, Acid)",
+      "Cleaning Tasks (Skim, Brush, Vacuum)",
+      "Equipment Check Status",
+      "Monthly Service Fee"
+    ],
+    "faq": [
+      {
+        "question": "Should I include chemicals in the monthly price?",
+        "answer": "Some do, but billing chemicals separately ( 'Plus Chems') protects your margin when chemical prices spike or usage is high."
+      },
+      {
+        "question": "How to prove service was done?",
+        "answer": "Many pool techs include a timestamped photo of the clean pool on the invoice or email receipt."
+      }
+    ]
+  },
+  {
+    "slug": "window-cleaning",
+    "name": "Window Cleaning",
+    "meta_title": "Invoice Template for Window Cleaners",
+    "description": "Professional invoice templates for window cleaning services. Download free or generate online.",
+    "hero_title": "Free Window Cleaning Invoice Template",
+    "hero_subtitle": "Transparency is key. Clear invoices for window cleaning professionals.",
+    "why_need_section": {
+      "title": "Scope of Window Service",
+      "content": "Did you clean the screens? The tracks? The sills? A window cleaning invoice needs to specify exactly what was included to avoid 'you missed a spot' complaints about areas not in the contract."
+    },
+    "what_to_include": [
+      "Number of Panes/Windows",
+      "Service Level (Interior, Exterior, Screens)",
+      "Hard Water Stain Removal (if extra)",
+      "Ladder Work / High Access Fee",
+      "Total Cost"
+    ],
+    "faq": [
+      {
+        "question": "How to count windows?",
+        "answer": "Be consistent. Usually, a standard sliding window is counted as 2 panes. explain your counting method on the invoice terms."
+      },
+      {
+        "question": "Do I charge extra for screen cleaning?",
+        "answer": "Yes, screen cleaning takes time and often requires removal. List it as a separate line item upgrade."
+      }
+    ]
+  },
+  {
+    "slug": "pressure-washing",
+    "name": "Pressure Washing",
+    "meta_title": "Invoice Template for Pressure Washing",
+    "description": "Professional invoice templates for pressure washing services. Download free or generate online.",
+    "hero_title": "Free Pressure Washing Invoice Template",
+    "hero_subtitle": "Blast away billing issues. Powerful invoices for power wash pros.",
+    "why_need_section": {
+      "title": "Liability & Service Detail",
+      "content": "Pressure washing carries risk (paint damage, water intrusion). Your invoice should confirm the 'Soft Wash' method was used where appropriate, showing care and expertise."
+    },
+    "what_to_include": [
+      "Areas Cleaned (Driveway, Siding, Deck)",
+      "Method Used (Pressure vs. Soft Wash)",
+      "Square Footage (approx)",
+      "Chemicals Used (Bleach/Surfactant)",
+      "Water Source (Client's or Tank)",
+      "Total Due"
+    ],
+    "faq": [
+      {
+        "question": "How to price pressure washing?",
+        "answer": "Usually by square foot or linear foot, but flat rates for 'Standard Driveway' work well for residential customers."
+      },
+      {
+        "question": "Should I explicitly mention 'Soft Wash'?",
+        "answer": "Yes! It educates the client that you used the safe, correct method for their siding, distinguishing you from amateurs."
+      }
+    ]
+  }
+]
