@@ -19,11 +19,7 @@ export function Header() {
 
         <nav className={styles.nav}>
           <ul className={styles.navLinks}>
-            <li>
-              <Link href="/invoice-generator" className={styles.navItem}>
-                Invoice Generator
-              </Link>
-            </li>
+
             <li>
               <Link href="/industries" className={styles.navItem}>
                 Industries
@@ -52,9 +48,14 @@ export function Header() {
             href="https://apps.apple.com/us/app/invoice-generator/id6742449153"
             target="_blank"
             rel="noopener noreferrer"
-            className={styles.downloadBtn}
           >
-            Download App
+            <Image
+              src="/app-store-badge.svg"
+              alt="Download on the App Store"
+              width={120}
+              height={36}
+              style={{ height: '36px', width: 'auto' }}
+            />
           </a>
         </div>
       </div>

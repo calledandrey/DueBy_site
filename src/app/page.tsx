@@ -108,8 +108,7 @@ export default function Home() {
       <section className="section bg-muted">
         <div className="container">
           <div className="flex-center gap-2">
-            <Link href="/invoice-generator">Invoice Generator</Link>
-            <span>•</span>
+
             <Link href="/invoice-templates">Templates</Link>
             <span>•</span>
             <Link href="/industries">Industries</Link>

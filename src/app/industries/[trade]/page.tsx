@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getAllIndustries, getIndustryBySlug } from '@/lib/data';
 import styles from './page.module.css';
 
@@ -45,9 +46,19 @@ export default async function IndustryPage({ params }: { params: Promise<{ trade
                     {industry.description}
                 </p>
                 <div className={styles.ctaGroup}>
-                    <Link href="/invoice-generator" className={styles.primaryCta}>
-                        Create Invoice Now
-                    </Link>
+                    <a
+                        href="https://apps.apple.com/us/app/invoice-generator/id6742449153"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Image
+                            src="/app-store-badge.svg"
+                            alt="Download on the App Store"
+                            width={140}
+                            height={42}
+                            style={{ height: '42px', width: 'auto' }}
+                        />
+                    </a>
                     <a href="#templates" className={styles.secondaryCta}>
                         Get Templates
                     </a>
@@ -126,7 +137,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ trade
 
             <div className={styles.footerLinks}>
                 <Link href="/industries">← All Industries</Link>
-                <Link href="/invoice-generator">Try Online Generator →</Link>
+                <a href="https://apps.apple.com/us/app/invoice-generator/id6742449153" target="_blank" rel="noopener noreferrer">Download App →</a>
             </div>
         </div>
     );

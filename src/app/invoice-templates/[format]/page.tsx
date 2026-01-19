@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getAllTemplateFormats, getTemplateFormatBySlug } from '@/lib/data';
 import styles from './page.module.css';
 
@@ -121,9 +122,19 @@ export default async function TemplateFormatPage({ params }: { params: Promise<{
                     {content.meta} Download, customize, and send to your clients in minutes.
                 </p>
                 <div className={styles.ctaGroup}>
-                    <Link href="/invoice-generator" className={styles.primaryCta}>
-                        Create Invoice Online
-                    </Link>
+                    <a
+                        href="https://apps.apple.com/us/app/invoice-generator/id6742449153"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Image
+                            src="/app-store-badge.svg"
+                            alt="Download on the App Store"
+                            width={140}
+                            height={42}
+                            style={{ height: '42px', width: 'auto' }}
+                        />
+                    </a>
                     <button className={styles.secondaryCta}>
                         Download {format.name} Template
                     </button>
@@ -140,8 +151,8 @@ export default async function TemplateFormatPage({ params }: { params: Promise<{
 
                 <section className={styles.contentSection}>
                     <h2>Want faster invoicing?</h2>
-                    <p>Generating invoices manually can be slow. Use our free online generator to create, send, and track invoices in seconds.</p>
-                    <Link href="/invoice-generator" className={styles.inlineCta}>Try the Invoice Generator →</Link>
+                    <p>Generating invoices manually can be slow. Use the DueBy app to create, send, and track invoices in seconds on your mobile device.</p>
+                    <a href="https://apps.apple.com/us/app/invoice-generator/id6742449153" target="_blank" rel="noopener noreferrer" className={styles.inlineCta}>Get the App →</a>
                 </section>
             </div>
 

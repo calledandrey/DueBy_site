@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getAllFeatures, getFeatureBySlug } from '@/lib/data';
 import styles from './page.module.css';
 
@@ -39,11 +40,18 @@ export default async function FeaturePage({ params }: { params: Promise<{ slug: 
                 <h1 className={styles.title}>{feature.h1}</h1>
                 <p className={styles.subtitle}>{feature.description}</p>
                 <div className={styles.ctaGroup}>
-                    <Link href="/invoice-generator" className={styles.primaryCta}>
-                        Create Invoice Now
-                    </Link>
-                    <a href="https://apps.apple.com/us/app/invoice-generator/id6742449153" target="_blank" rel="noopener noreferrer" className={styles.secondaryCta}>
-                        Download App
+                    <a
+                        href="https://apps.apple.com/us/app/invoice-generator/id6742449153"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Image
+                            src="/app-store-badge.svg"
+                            alt="Download on the App Store"
+                            width={140}
+                            height={42}
+                            style={{ height: '42px', width: 'auto' }}
+                        />
                     </a>
                 </div>
             </header>
@@ -74,7 +82,7 @@ export default async function FeaturePage({ params }: { params: Promise<{ slug: 
 
             <div className={styles.footerLinks}>
                 <Link href="/">← Back to Home</Link>
-                <Link href="/invoice-generator">Try Online Generator →</Link>
+                <a href="https://apps.apple.com/us/app/invoice-generator/id6742449153" target="_blank" rel="noopener noreferrer">Download App →</a>
             </div>
         </div>
     );

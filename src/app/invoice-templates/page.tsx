@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FileText, FileType2, Sheet, File, Table, ArrowRight } from 'lucide-react';
 import { getAllIndustries, getAllTemplateFormats } from '@/lib/data';
 import styles from './page.module.css';
@@ -29,9 +30,19 @@ export default function TemplatesPage() {
                     Pick a format, customize, send. Or generate invoices faster inside DueBy.
                 </p>
                 <div className={styles.headerActions}>
-                    <Link href="/invoice-generator" className={styles.primaryCta}>
-                        Create invoice
-                    </Link>
+                    <a
+                        href="https://apps.apple.com/us/app/invoice-generator/id6742449153"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Image
+                            src="/app-store-badge.svg"
+                            alt="Download on the App Store"
+                            width={140}
+                            height={42}
+                            style={{ height: '42px', width: 'auto' }}
+                        />
+                    </a>
                 </div>
             </header>
 

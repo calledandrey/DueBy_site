@@ -1,27 +1,35 @@
 import { Metadata } from 'next';
-import { GeneratorClient } from '@/components/generator/GeneratorClient';
+import Image from 'next/image';
 import Link from 'next/link';
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
-    title: 'Invoice Generator — Create Invoices Online | DueBy',
-    description: 'Create professional invoices online. Add your logo, client details, line items, taxes, discounts, and export as PDF. Fast, simple, reliable.',
+    title: 'Invoice Generator App — Create Invoices on Mobile | DueBy',
+    description: 'The DueBy invoice generator app makes it easy to create professional invoices on your iPhone or iPad. Add your logo, client details, and export as PDF.',
 };
 
 export default function InvoiceGeneratorPage() {
     return (
         <div className={styles.container}>
             <header className={styles.header}>
-                <h1 className={styles.h1}>Free invoice generator for fast, professional invoices.</h1>
+                <h1 className={styles.h1}>The DueBy App: Professional invoices in your pocket.</h1>
                 <p className={styles.subhead}>Generate an invoice that looks legit, is easy to read, and is ready to send—without formatting headaches.</p>
                 <div className={styles.headerActions}>
-                    <Link href="/invoice-templates" className={styles.secondaryCta}>
-                        Download template
-                    </Link>
+                    <a
+                        href="https://apps.apple.com/us/app/invoice-generator/id6742449153"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Image
+                            src="/app-store-badge.svg"
+                            alt="Download on the App Store"
+                            width={140}
+                            height={42}
+                            style={{ height: '42px', width: 'auto' }}
+                        />
+                    </a>
                 </div>
             </header>
-
-            <GeneratorClient />
 
             <section className={styles.benefitsSection}>
                 <h2 className={styles.h2}>What you can do with DueBy</h2>
