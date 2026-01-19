@@ -62,3 +62,105 @@ button {
   padding: 0 1rem;
   width: 100%;
 }
+
+.section {
+  padding: 5rem 0;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  letter-spacing: -0.02em;
+}
+
+.sectionSubtitle {
+  text-align: center;
+  color: var(--muted-foreground);
+  font-size: 1.25rem;
+  margin-top: -2.5rem;
+  margin-bottom: 4rem;
+}
+
+.bg-muted {
+  background-color: var(--muted);
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.hubGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.hubCard {
+  background: var(--background);
+  padding: 2rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  text-align: center;
+  transition: transform 0.2s, border-color 0.2s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.hubCard:hover {
+  transform: translateY(-4px);
+  border-color: var(--foreground);
+}
+
+.hubCard h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.stepsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 3rem;
+}
+
+.stepItem {
+  text-align: center;
+}
+
+.stepNumber {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: var(--foreground);
+  color: var(--background);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+.faqGrid {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+}
+
+.faqItem h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.faqItem p {
+  color: var(--muted-foreground);
+  line-height: 1.6;
+}

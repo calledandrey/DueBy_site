@@ -4,8 +4,8 @@ import { getAllIndustries } from '@/lib/data';
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
-    title: 'Invoice Templates by Industry | DueBy',
-    description: 'Free professional invoice templates tailored for your specific trade or industry. Download in PDF, Word, Excel, and more.',
+    title: 'Invoice Templates & Examples by Industry | DueBy',
+    description: 'Find invoice templates and invoicing tips for contractors, freelancers, home services, and more. Built to match real workflows.',
 };
 
 export default function IndustriesPage() {
@@ -14,10 +14,10 @@ export default function IndustriesPage() {
     return (
         <div className="container">
             <header className={styles.header}>
-                <h1 className={styles.title}>Invoice Templates by Industry</h1>
+                <h1 className={styles.title}>Invoicing by industry—templates, examples, and tips.</h1>
                 <p className={styles.subtitle}>
-                    Find the perfect invoice template designed specifically for your trade.
-                    Professional, customizable, and free to use.
+                    Professional invoice templates designed for your specific trade.
+                    Built to match real-world workflows and client expectations.
                 </p>
             </header>
 
@@ -33,6 +33,16 @@ export default function IndustriesPage() {
                     </Link>
                 ))}
             </div>
+
+            <section className={styles.faqSection}>
+                <h2 className={styles.sectionTitle}>FAQ</h2>
+                <div className={styles.faqGrid}>
+                    <div className={styles.faqItem}>
+                        <h3>Why use an industry invoice template?</h3>
+                        <p>It matches how clients in that industry expect to see services described and priced, ensuring fewer disputes and faster payments.</p>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 }

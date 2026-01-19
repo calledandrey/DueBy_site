@@ -64,3 +64,35 @@
     color: var(--muted-foreground);
     line-height: 1.5;
 }
+.faqSection {
+    margin-top: 6rem;
+    padding-top: 6rem;
+    border-top: 1px solid var(--border);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 6rem;
+}
+
+.sectionTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.faqGrid {
+    display: grid;
+    gap: 2.5rem;
+}
+
+.faqItem h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.faqItem p {
+    color: var(--muted-foreground);
+    line-height: 1.6;
+}

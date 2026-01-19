@@ -1,0 +1,146 @@
+[
+    {
+        "slug": "estimates",
+        "name": "Estimates",
+        "title": "Professional Estimates & Quotes | DueBy",
+        "meta": "Convert more leads with professional estimates. Turn estimates into invoices with one tap inside DueBy.",
+        "h1": "Send estimates that win more jobs.",
+        "description": "Don't wait to get home to send a quote. Create a professional estimate on the spot and get client approval faster.",
+        "benefits": [
+            "Add line items and optional extras",
+            "One-tap conversion: Estimate → Invoice",
+            "Professional PDF layout with your branding",
+            "Track when estimates are viewed by clients"
+        ],
+        "faq": [
+            {
+                "q": "Can I convert an estimate to an invoice?",
+                "a": "Yes—once a job is approved, you can turn the estimate into a formal invoice with one tap."
+            },
+            {
+                "q": "Can I add terms to an estimate?",
+                "a": "Yes—include expiration dates and delivery terms on every quote."
+            }
+        ]
+    },
+    {
+        "slug": "deposits",
+        "name": "Deposits",
+        "title": "Invoice with Deposits & Upfront Payments | DueBy",
+        "meta": "Protect your cash flow by requesting deposits. Clearly show deposit amounts and remaining balances on invoices.",
+        "h1": "Handle deposits and upfront payments with ease.",
+        "description": "Secure your projects by requesting a deposit upfront. DueBy tracks what's paid and what's remaining automatically.",
+        "benefits": [
+            "Add a required deposit amount to any invoice",
+            "Balance due is updated automatically",
+            "Perfect for contractors and large projects",
+            "Clear records for you and your client"
+        ],
+        "faq": [
+            {
+                "q": "How is the balance calculated?",
+                "a": "DueBy subtracts the deposit from the total and shows the 'Remaining Balance' clearly in the footer."
+            }
+        ]
+    },
+    {
+        "slug": "recurring-invoices",
+        "name": "Recurring Invoices",
+        "title": "Recurring Invoices & Subscriptions | DueBy",
+        "meta": "Automate your billing with recurring invoices. Perfect for cleaning services, retainers, and subscription businesses.",
+        "h1": "Set it and forget it with recurring invoices.",
+        "description": "For clients on a schedule, stop creating the same invoice every week. Set up recurring billing and save hours of manual work.",
+        "benefits": [
+            "Choose weekly, bi-weekly, or monthly schedules",
+            "Auto-generate invoices for approval or sending",
+            "Ideal for maintenance and retainer work",
+            "Manage all recurring clients in one dashboard"
+        ],
+        "faq": [
+            {
+                "q": "Can I stop a recurring invoice anytime?",
+                "a": "Yes—you have full control to pause or cancel a recurring schedule at any moment."
+            }
+        ]
+    },
+    {
+        "slug": "payments",
+        "name": "Payments",
+        "title": "Accept Online Payments & Get Paid Faster | DueBy",
+        "meta": "Get paid via credit card, Apple Pay, and more. Professional payment instructions included on every invoice.",
+        "h1": "Get paid faster with integrated payments.",
+        "description": "Remove the friction from getting paid. Include payment links or clear bank transfer instructions on every invoice.",
+        "benefits": [
+            "Include 'Pay Now' buttons on digital invoices",
+            "Support for bank transfers and credit cards",
+            "Automatic payment matching and status updates",
+            "Works on iPhone, iPad, and Mac"
+        ],
+        "faq": [
+            {
+                "q": "Are there transaction fees?",
+                "a": "Payment processing fees depend on your chosen provider (e.g., Stripe)."
+            }
+        ]
+    },
+    {
+        "slug": "client-management",
+        "name": "Client Management",
+        "title": "Simple Client Management for Small Business | DueBy",
+        "meta": "Keep all your client details in one place. Save addresses, contact info, and billing history for faster invoicing.",
+        "h1": "Your client list, organized and accessible.",
+        "description": "Stop hunting for email addresses. Save your client details once and add them to any invoice in seconds.",
+        "benefits": [
+            "Save multiple billing and shipping addresses",
+            "View a complete history of invoices per client",
+            "Quick-search and one-tap selection",
+            "Import contacts from your device"
+        ],
+        "faq": [
+            {
+                "q": "Can I import my existing contacts?",
+                "a": "Yes—you can easily sync your iPhone/iPad contacts with DueBy."
+            }
+        ]
+    },
+    {
+        "slug": "taxes-vat",
+        "name": "Taxes & VAT",
+        "title": "Invoice with Taxes, VAT & Discounts | DueBy",
+        "meta": "Handle VAT, Sales Tax, and multi-line taxes effortlessly. Add discounts as fixed amounts or percentages.",
+        "h1": "Taxes and discounts handled automatically.",
+        "description": "No more manual math. Add tax lines and discounts to your invoice and let DueBy calculate the totals for you.",
+        "benefits": [
+            "Support for multi-tax lines (VAT + Sales Tax)",
+            "Add discounts by percentage or fixed amount",
+            "Tax-inclusive vs tax-exclusive pricing",
+            "Ready for tax time with clear reports"
+        ],
+        "faq": [
+            {
+                "q": "Does it support international tax rates?",
+                "a": "Yes—you can customize your tax names and rates to match any region."
+            }
+        ]
+    },
+    {
+        "slug": "branding",
+        "name": "Branding",
+        "title": "Professional Branding for Your Invoices | DueBy",
+        "meta": "Make your business look legit with professional branding. Add your logo, custom colors, and personalized terms.",
+        "h1": "Professional invoices that show off your brand.",
+        "description": "Your invoice is a reflection of your business. Add your logo and professional styling to stand out from the competition.",
+        "benefits": [
+            "Upload your business logo in high resolution",
+            "Add custom footer notes and payment terms",
+            "Clean, modern layouts that look great on any device",
+            "Consistent branding across all documents"
+        ],
+        "faq": [
+            {
+                "q": "Can I use my own brand colors?",
+                "a": "Yes—customize your accent colors and fonts to match your visual identity."
+            }
+        ]
+    }
+]

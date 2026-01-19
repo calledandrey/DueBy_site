@@ -30,13 +30,13 @@ export function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/templates" className={styles.navItem}>
+              <Link href="/invoice-templates" className={styles.navItem}>
                 Templates
               </Link>
             </li>
             <li>
-              <Link href="/resources" className={styles.navItem}>
-                Resources
+              <Link href="/blog" className={styles.navItem}>
+                Blog
               </Link>
             </li>
             <li>

@@ -55,8 +55,48 @@
     align-items: center;
 }
 
-.primaryCta:hover {
-    opacity: 0.8;
+.primaryAction {
+    background: var(--foreground);
+    color: var(--background);
+    padding: 1rem 2rem;
+    border-radius: var(--radius);
+    font-weight: 600;
+    transition: opacity 0.2s;
+}
+
+.secondaryAction {
+    background: var(--muted);
+    color: var(--foreground);
+    padding: 1rem 2rem;
+    border-radius: var(--radius);
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.primaryAction:hover {
+    opacity: 0.9;
+}
+
+.secondaryAction:hover {
+    background: var(--border);
+}
+
+.trustLine {
+    font-size: 0.875rem;
+    color: var(--muted-foreground);
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.appStoreCta {
+    display: flex;
+    justify-content: center;
+}
+
+.headline {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .storeBadge {

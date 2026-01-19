@@ -1,0 +1,114 @@
+.hero {
+    padding: 6rem 0 4rem;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.03em;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: var(--muted-foreground);
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+}
+
+.ctaGroup {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.primaryCta {
+    background: var(--primary);
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: var(--radius);
+    font-weight: 600;
+}
+
+.secondaryCta {
+    background: var(--muted);
+    color: var(--foreground);
+    padding: 0.75rem 2rem;
+    border-radius: var(--radius);
+    font-weight: 600;
+}
+
+.section {
+    padding: 4rem 0;
+}
+
+.sectionTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.benefitsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.benefitCard {
+    padding: 2rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.checkIcon {
+    color: var(--primary);
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+.faqSection {
+    margin-top: 6rem;
+    padding-top: 6rem;
+    border-top: 1px solid var(--border);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 6rem;
+}
+
+.faqGrid {
+    display: grid;
+    gap: 2.5rem;
+}
+
+.faqItem h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.faqItem p {
+    color: var(--muted-foreground);
+    line-height: 1.6;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+    margin-bottom: 6rem;
+}
+
+.footerLinks a {
+    color: var(--primary);
+    font-weight: 600;
+}

@@ -5,32 +5,42 @@ export function ValueProps() {
     return (
         <section className={styles.section}>
             <div className="container">
+                <h2 className={styles.sectionTitle}>Everything you need to invoice confidently</h2>
                 <div className={styles.grid}>
                     <div className={styles.card}>
                         <div className={styles.icon}>
                             <Zap size={24} />
                         </div>
-                        <h3 className={styles.title}>Lightning Fast</h3>
+                        <h3 className={styles.title}>Fast sharing</h3>
                         <p className={styles.description}>
-                            Generate professional invoices in under a minute. Save clients, items, and taxes for frequent use.
+                            Send as PDF or share a link clients can open instantly.
                         </p>
                     </div>
                     <div className={styles.card}>
                         <div className={styles.icon}>
                             <ShieldCheck size={24} />
                         </div>
-                        <h3 className={styles.title}>Professional & Secure</h3>
+                        <h3 className={styles.title}>Your branding</h3>
                         <p className={styles.description}>
-                            Look professional with custom templates. Your data is stored securely on your device and synced via iCloud.
+                            Add logo, business details, invoice number rules, and payment terms.
                         </p>
                     </div>
                     <div className={styles.card}>
                         <div className={styles.icon}>
                             <PieChart size={24} />
                         </div>
-                        <h3 className={styles.title}>Business Insights</h3>
+                        <h3 className={styles.title}>Professional templates</h3>
                         <p className={styles.description}>
-                            Track payments, overdue invoices, and monthly revenue with built-in reports and charts.
+                            Clean layouts that look good on any device and print well.
+                        </p>
+                    </div>
+                    <div className={styles.card}>
+                        <div className={styles.icon}>
+                            <ShieldCheck size={24} />
+                        </div>
+                        <h3 className={styles.title}>Stay on top of due dates</h3>
+                        <p className={styles.description}>
+                            See what’s sent, viewed, paid, and overdue.
                         </p>
                     </div>
                 </div>

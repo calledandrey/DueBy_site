@@ -13,18 +13,23 @@ export function HubPreviews() {
             <section className={styles.section}>
                 <div className={styles.header}>
                     <div>
-                        <h2 className={styles.title}>Free Invoice Templates</h2>
+                        <h2 className={styles.title}>Start with a free invoice template</h2>
                         <p className={styles.description}>
                             Download professional invoice templates in your preferred format.
                         </p>
                     </div>
-                    <Link href="/templates" className={styles.viewAll}>
+                    <Link href="/invoice-templates" className={styles.viewAll}>
                         View all templates <ArrowRight size={16} />
                     </Link>
                 </div>
                 <div className={styles.grid}>
-                    {formats.map((format) => (
-                        <Link key={format.slug} href={`/templates/invoice/${format.slug}`} className={styles.card}>
+                    {[
+                        { name: 'PDF', slug: 'pdf', description: 'Best for final sending' },
+                        { name: 'Word', slug: 'word', description: 'Best for custom layouts' },
+                        { name: 'Excel', slug: 'excel', description: 'Best for calculations' },
+                        { name: 'Google Docs', slug: 'google-docs', description: 'Best for quick edits' }
+                    ].map((format) => (
+                        <Link key={format.slug} href={`/invoice-templates/${format.slug}`} className={styles.card}>
                             <h3 className={styles.cardTitle}>{format.name} Templates</h3>
                             <p className={styles.cardDesc}>{format.description}</p>
                         </Link>

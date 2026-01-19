@@ -13,7 +13,6 @@ export async function generateStaticParams() {
 }
 
 // Generate dynamic metadata
-// Generate dynamic metadata
 export async function generateMetadata({ params }: { params: Promise<{ trade: string }> }): Promise<Metadata> {
     const { trade } = await params;
     const industry = getIndustryBySlug(trade);
@@ -25,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ trade: st
     }
 
     return {
-        title: industry.meta_title,
+        title: industry.title || industry.meta_title,
         description: industry.description,
     };
 }
@@ -40,68 +39,95 @@ export default async function IndustryPage({ params }: { params: Promise<{ trade
 
     return (
         <div className="container">
-            <div className={styles.hero}>
-                <h1 className={styles.title}>{industry.hero_title}</h1>
+            <header className={styles.hero}>
+                <h1 className={styles.title}>{industry.h1 || industry.hero_title}</h1>
                 <p className={styles.subtitle}>
-                    {industry.hero_subtitle}
+                    {industry.description}
                 </p>
                 <div className={styles.ctaGroup}>
                     <Link href="/invoice-generator" className={styles.primaryCta}>
                         Create Invoice Now
                     </Link>
                     <a href="#templates" className={styles.secondaryCta}>
-                        Download Templates
+                        Get Templates
                     </a>
                 </div>
-            </div>
+            </header>
+
+            {industry.scenarios && (
+                <section className={styles.section}>
+                    <h2 className={styles.sectionTitle}>Common invoicing scenarios</h2>
+                    <ul className={styles.checklist}>
+                        {industry.scenarios.map((item: any, idx: number) => (
+                            <li key={idx} className={styles.checklistItem}>
+                                <span className={styles.checkIcon}>→</span> {item}
+                            </li>
+                        ))}
+                    </ul>
+                </section>
+            )}
 
             <section className={styles.section}>
-                <div className={styles.content}>
-                    <h2 className={styles.sectionTitle}>{industry.why_need_section.title}</h2>
-                    <p>{industry.why_need_section.content}</p>
+                <h2 className={styles.sectionTitle}>What to include on your {industry.name} invoice</h2>
+                <div className={styles.grid2Col}>
+                    <div>
+                        <h3 className={styles.h3}>Common line items</h3>
+                        <ul className={styles.checklist}>
+                            {(industry.line_items || industry.what_to_include || []).map((item: any, idx: number) => (
+                                <li key={idx} className={styles.checklistItem}>
+                                    <span className={styles.checkIcon}>✓</span> {item}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                    {industry.tips && (
+                        <div>
+                            <h3 className={styles.h3}>Pro tips</h3>
+                            <ul className={styles.checklist}>
+                                {industry.tips.map((item: any, idx: number) => (
+                                    <li key={idx} className={styles.checklistItem}>
+                                        <span className={styles.checkIcon}>★</span> {item}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
                 </div>
             </section>
 
-            <section id="templates" className={styles.section} style={{ backgroundColor: 'var(--background-secondary)' }}>
-                <h2 className={styles.sectionTitle}>Free {industry.name} Invoice Templates</h2>
-                <p className={styles.sectionText}>
-                    Select a format to download your free template.
-                </p>
-
+            <section id="templates" className={styles.section} style={{ backgroundColor: 'var(--background-secondary)', padding: '4rem 2rem', borderRadius: 'var(--radius)' }}>
+                <h2 className={styles.sectionTitle}>{industry.name} Invoice Formats</h2>
                 <div className={styles.formatGrid}>
-                    {['PDF', 'Word', 'Excel'].map(format => (
-                        <div key={format} className={styles.formatCard}>
-                            <h3>{format}</h3>
-                            <p>Download {industry.name} Invoice in {format}</p>
-                            <button className={styles.downloadBtn}>Download</button>
-                        </div>
+                    {[
+                        { name: 'PDF', slug: 'pdf' },
+                        { name: 'Word', slug: 'word' },
+                        { name: 'Excel', slug: 'excel' },
+                        { name: 'Google Docs', slug: 'google-docs' }
+                    ].map(f => (
+                        <Link key={f.slug} href={`/invoice-templates/${f.slug}`} className={styles.formatCard}>
+                            <h3>{f.name}</h3>
+                            <p>Get {industry.name} Template</p>
+                        </Link>
                     ))}
                 </div>
             </section>
 
             <section className={styles.section}>
-                <h2 className={styles.sectionTitle}>What to Include in a {industry.name} Invoice</h2>
-                <ul className={styles.checklist}>
-                    {industry.what_to_include.map((item, index) => (
-                        <li key={index} className={styles.checklistItem}>
-                            <span className={styles.checkIcon}>✓</span>
-                            {item}
-                        </li>
-                    ))}
-                </ul>
-            </section>
-
-            <section className={styles.section} style={{ marginBottom: '4rem' }}>
-                <h2 className={styles.sectionTitle}>Frequently Asked Questions</h2>
+                <h2 className={styles.sectionTitle}>FAQ</h2>
                 <div className={styles.faqGrid}>
-                    {industry.faq.map((item, index) => (
+                    {(industry.faq || []).map((item: any, index: number) => (
                         <div key={index} className={styles.faqItem}>
-                            <h3 className={styles.faqQuestion}>{item.question}</h3>
-                            <p className={styles.faqAnswer}>{item.answer}</p>
+                            <h3 className={styles.faqQuestion}>{item.q || item.question}</h3>
+                            <p className={styles.faqAnswer}>{item.a || item.answer}</p>
                         </div>
                     ))}
                 </div>
             </section>
+
+            <div className={styles.footerLinks}>
+                <Link href="/industries">← All Industries</Link>
+                <Link href="/invoice-generator">Try Online Generator →</Link>
+            </div>
         </div>
     );
 }

@@ -10,15 +10,17 @@ export function Footer() {
                         <h3>Product</h3>
                         <ul>
                             <li><Link href="/invoice-generator">Invoice Generator</Link></li>
-                            <li><Link href="/templates">Templates</Link></li>
+                            <li><Link href="/invoice-templates">Templates</Link></li>
                             <li><Link href="/industries">Industries</Link></li>
+                            <li><Link href="/features/estimates">Features</Link></li>
                         </ul>
                     </div>
                     <div className={styles.column}>
                         <h3>Resources</h3>
                         <ul>
-                            <li><Link href="/resources/guides">Guides</Link></li>
-                            <li><Link href="/resources/tools">Free Tools</Link></li>
+                            <li><Link href="/blog">Blog</Link></li>
+                            <li><Link href="/about">About</Link></li>
+                            <li><Link href="/contact">Contact</Link></li>
                         </ul>
                     </div>
                     <div className={styles.column}>

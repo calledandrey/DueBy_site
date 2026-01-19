@@ -1,0 +1,220 @@
+[
+    {
+        "slug": "professional-invoice-guide",
+        "title": "How to make a professional invoice: 7 must-have elements",
+        "meta": "Learn how to create a professional invoice that gets paid faster. Essential elements, branding tips, and common mistakes.",
+        "summary": "Creating a professional invoice is more than just listing prices. Learn the 7 essential elements every invoice needs to look legit and ensure fast payments.",
+        "h1": "How to make a professional invoice.",
+        "sections": [
+            {
+                "h2": "1. Clear 'Invoice' header",
+                "content": "Start with a bold 'Invoice' label at the top. This helps your client's accounting department categorize the document immediately."
+            },
+            {
+                "h2": "2. Professional branding",
+                "content": "Add your logo and use consistent fonts. A professional-looking invoice builds trust and reflects your quality of work."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Should I include my logo?",
+                "a": "Yes—branding your invoice makes your business look more established and professional."
+            }
+        ]
+    },
+    {
+        "slug": "invoice-vs-estimate",
+        "title": "Invoice vs. Estimate: What's the difference?",
+        "meta": "Understand the difference between an invoice and an estimate. When to send each and how to transition from quote to payment.",
+        "summary": "Confused about when to send an estimate versus an invoice? This guide breaks down the timing and purpose of each document.",
+        "h1": "Invoice vs. Estimate: Timing and Purpose.",
+        "sections": [
+            {
+                "h2": "The Estimate (Quote)",
+                "content": "An estimate is sent before the work begins. It outlines the projected costs and scope for client approval."
+            },
+            {
+                "h2": "The Invoice",
+                "content": "An invoice is a request for payment sent after the work (or a milestone) is completed."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Can an estimate be a contract?",
+                "a": "Yes, if signed by both parties, an estimate can serve as a binding agreement."
+            }
+        ]
+    },
+    {
+        "slug": "late-payments-tips",
+        "title": "5 Tips to handle late payments gracefully",
+        "meta": "Stop chasing clients for money. Learn how to handle late payments with professional reminders and clear terms.",
+        "summary": "Dealing with late-paying clients? Use these 5 professional strategies to get paid without damaging the relationship.",
+        "h1": "How to handle late payments like a pro.",
+        "sections": [
+            {
+                "h2": "Set clear terms upfront",
+                "content": "Include your payment due date and any late fee policies in your initial contract and on every invoice."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Should I charge late fees?",
+                "a": "Late fees can encourage prompt payment, but use them judiciously to maintain client goodwill."
+            }
+        ]
+    },
+    {
+        "slug": "contractor-billing-guide",
+        "title": "Contractor Billing: Best practices for trades",
+        "meta": "Invoicing tips for contractors. Handle materials, labor, and deposits like a pro.",
+        "summary": "Master your trades business billing with these contractor-specific invoicing tips.",
+        "h1": "Contractor Billing: Best practices.",
+        "sections": [],
+        "faq": []
+    },
+    {
+        "slug": "freelancer-tax-tips",
+        "title": "Freelancer Tax Prep: Tracking your invoices",
+        "meta": "Stay organized for tax season. Tips for freelancers to track income and expenses.",
+        "summary": "Tax time doesn't have to be stressful. Learn how to track your invoices throughout the year.",
+        "h1": "Freelancer Tax Prep.",
+        "sections": [],
+        "faq": []
+    },
+    {
+        "slug": "small-business-cash-flow",
+        "title": "Improving Cash Flow for Small Businesses",
+        "meta": "Get more money in the bank. Practical tips for managing your business cash flow.",
+        "summary": "Cash flow is the lifeblood of your business. Learn how to speed up payments and manage expenses.",
+        "h1": "Improving Cash Flow.",
+        "sections": [],
+        "faq": []
+    },
+    {
+        "slug": "invoice-numbering-systems",
+        "title": "Choosing an Invoice Numbering System",
+        "meta": "Sequential, chronological, or project-based? Find the best way to number your invoices.",
+        "summary": "Stay organized with a solid invoice numbering system. We compare the most popular methods.",
+        "h1": "Invoice Numbering Systems.",
+        "sections": [],
+        "faq": []
+    },
+    {
+        "slug": "payment-terms-explained",
+        "title": "Net 30 vs. Due on Receipt: Payment terms explained",
+        "meta": "Learn which payment terms are best for your business and how they affect your cash flow.",
+        "summary": "Don't just pick a date. Understand how different payment terms impact your business operations.",
+        "h1": "Payment Terms Explained.",
+        "sections": [],
+        "faq": []
+    },
+    {
+        "slug": "vat-invoicing-guide",
+        "title": "VAT Invoicing: Everything you need to know",
+        "meta": "A simple guide to adding VAT to your invoices. Required details and compliance tips.",
+        "summary": "Moving to VAT-registered? Here's what needs to change on your invoices.",
+        "h1": "VAT Invoicing Guide.",
+        "sections": [],
+        "faq": []
+    },
+    {
+        "slug": "digital-vs-paper-invoices",
+        "title": "Digital vs. Paper Invoices: Why go paperless?",
+        "meta": "Save time and money by switching to digital invoicing. The benefits of going paperless.",
+        "summary": "Still sending paper invoices? Here's why digital is faster, safer, and better for business.",
+        "h1": "Digital vs. Paper Invoices.",
+        "sections": [],
+        "faq": []
+    },
+    {
+        "slug": "mobile-invoicing-benefits",
+        "title": "Why Invoicing from Your Phone is a Game Changer",
+        "meta": "Invoicing on the go. How mobile apps help you get paid before you even leave the job site.",
+        "summary": "Stop waiting until you get back to the office. Invoice instantly from your iPhone or iPad.",
+        "h1": "Mobile Invoicing Benefits.",
+        "sections": [],
+        "faq": []
+    },
+    {
+        "slug": "invoice-disputes-resolution",
+        "title": "How to Resolve Invoice Disputes Quickly",
+        "meta": "Client not happy with the bill? How to handle disputes professionally and get paid.",
+        "summary": "Avoid long arguments. Use these tips to resolve invoice discrepancies with minimal friction.",
+        "h1": "Resolving Invoice Disputes.",
+        "sections": [],
+        "faq": []
+    },
+    {
+        "slug": "itemized-vs-flat-rate",
+        "title": "Itemized vs. Flat Rate: Which is better?",
+        "meta": "Choosing your pricing model. The pros and cons of itemizing your invoices.",
+        "summary": "Should you list every screw or just the final price? We weigh the options for transparent billing.",
+        "h1": "Itemized vs. Flat Rate.",
+        "sections": [],
+        "faq": []
+    },
+    {
+        "slug": "branding-your-business",
+        "title": "How Branding Impacts Your Business Legitimacy",
+        "meta": "More than just a logo. How professional documents build trust with high-paying clients.",
+        "summary": "Look like the pro you are. Learn how consistent branding across your invoices builds value.",
+        "h1": "Branding & Legitimacy.",
+        "sections": [],
+        "faq": []
+    },
+    {
+        "slug": "international-invoicing",
+        "title": "Invoicing International Clients: Currencies and Taxes",
+        "meta": "Tips for billing clients in other countries. Handle exchange rates and international tax rules.",
+        "summary": "Going global? Here's how to structure your invoices for international payments.",
+        "h1": "International Invoicing.",
+        "sections": [],
+        "faq": []
+    },
+    {
+        "slug": "deposit-invoices-guide",
+        "title": "When and How to Send a Deposit Invoice",
+        "meta": "Secure your time and materials. A guide to requesting upfront payments.",
+        "summary": "Start every project with confidence. Learn the right way to request and track deposits.",
+        "h1": "Deposit Invoices Guide.",
+        "sections": [],
+        "faq": []
+    },
+    {
+        "slug": "pro-forma-invoices",
+        "title": "What is a Pro Forma Invoice? (And when to use it)",
+        "meta": "Understand Pro Forma invoices for shipping, customs, and pre-payment situations.",
+        "summary": "It's not a legal invoice, but it's useful. Learn how to use Pro Forma documents correctly.",
+        "h1": "Pro Forma Invoices Explained.",
+        "sections": [],
+        "faq": []
+    },
+    {
+        "slug": "invoice-software-benefits",
+        "title": "Spreadsheets vs. Invoice Apps: Which is right for you?",
+        "meta": "Is it time to ditch Excel? The advantages of using a dedicated invoicing app.",
+        "summary": "If you're still using spreadsheets, you're losing time. See why an app is a better investment.",
+        "h1": "Spreadsheets vs. Invoice Apps.",
+        "sections": [],
+        "faq": []
+    },
+    {
+        "slug": "client-payment-methods",
+        "title": "The Best Payment Methods for Fast Turnaround",
+        "meta": "From ACH to Apple Pay: Which payment methods get you paid the fastest?",
+        "summary": "Make it easy for clients to pay. We rank the best payment options for small businesses.",
+        "h1": "Best Payment Methods.",
+        "sections": [],
+        "faq": []
+    },
+    {
+        "slug": "bookkeeping-basics",
+        "title": "Bookkeeping Basics: Organizing your income",
+        "meta": "Keep your records clean. Simple bookkeeping tips for sole traders and freelancers.",
+        "summary": "Good bookkeeping starts with good invoicing. Learn how to organize your records for success.",
+        "h1": "Bookkeeping Basics.",
+        "sections": [],
+        "faq": []
+    }
+]

@@ -117,3 +117,77 @@
 .industryLink:hover {
     background: var(--border);
 }
+.headerActions {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.primaryCta {
+    background: var(--foreground);
+    color: var(--background);
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--radius);
+    font-weight: 600;
+}
+
+.formatInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+}
+
+.formatDesc {
+    font-size: 0.875rem;
+    color: var(--muted-foreground);
+}
+
+.sectionDesc {
+    text-align: center;
+    color: var(--muted-foreground);
+    margin-bottom: 2rem;
+}
+
+.viewMore {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.secondaryBtn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.guideGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2rem;
+}
+
+.guideItem h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.guideItem p {
+    color: var(--muted-foreground);
+    line-height: 1.6;
+}
+
+.faqSection {
+    margin-top: 6rem;
+    padding-top: 6rem;
+    border-top: 1px solid var(--border);
+}
+
+.faqGrid {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+}
