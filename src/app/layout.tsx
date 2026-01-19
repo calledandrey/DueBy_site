@@ -33,10 +33,6 @@ export const metadata: Metadata = {
         alt: 'DueBy Invoice Generator',
       }
     ]
-  },
-  icons: {
-    icon: '/favicon.ico',
-    apple: '/favicon.ico',
   }
 };
 

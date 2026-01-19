@@ -8,10 +8,10 @@ export function Header() {
       <div className={`container ${styles.inner}`}>
         <Link href="/" className={styles.logo}>
           <Image
-            src="/favicon.ico"
+            src="/app-icon.png"
             alt="DueBy Logo"
-            width={24}
-            height={24}
+            width={32}
+            height={32}
             className={styles.logoIcon}
           />
           DueBy

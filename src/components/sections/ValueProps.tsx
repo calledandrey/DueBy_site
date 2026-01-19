@@ -10,9 +10,9 @@ export function ValueProps() {
                         <div className={styles.icon}>
                             <Zap size={24} />
                         </div>
-                        <h3 className={styles.title}>Lighting Fast</h3>
+                        <h3 className={styles.title}>Lightning Fast</h3>
                         <p className={styles.description}>
-                            Generated professional invoices in under minute. Save clients, items, and taxes for frequent use.
+                            Generate professional invoices in under a minute. Save clients, items, and taxes for frequent use.
                         </p>
                     </div>
                     <div className={styles.card}>

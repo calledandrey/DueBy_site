@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import styles from './Hero.module.css';
 
@@ -17,11 +18,14 @@ export function Hero() {
                     rel="noopener noreferrer"
                     className={styles.primaryCta}
                 >
-                    Download for iOS
+                    <Image
+                        src="/app-store-badge.svg"
+                        alt="Download on the App Store"
+                        width={150}
+                        height={52}
+                        className={styles.storeBadge}
+                    />
                 </a>
-                <Link href="/invoice-generator" className={styles.secondaryCta}>
-                    Use Web Generator
-                </Link>
             </div>
         </section>
     );
