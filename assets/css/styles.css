@@ -1,0 +1,264 @@
+:root {
+    --primary: #0066FF;
+    --primary-hover: #0052cc;
+    --secondary: #eef2ff;
+    --background: #ffffff;
+    --foreground: #09090b;
+    --muted: #f4f4f5;
+    --muted-foreground: #71717a;
+    --border: #e4e4e7;
+    --radius: 0.5rem;
+    --container-width: 1200px;
+    --header-height: 84px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #09090b;
+        --foreground: #fafafa;
+        --muted: #27272a;
+        --muted-foreground: #a1a1aa;
+        --border: #27272a;
+        --secondary: #1e293b;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.narrow-container {
+    max-width: 800px;
+}
+
+/* Header */
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: var(--header-height);
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.site-header.scrolled {
+    background: var(--background);
+    border-bottom: 1px solid var(--border);
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.logo-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+}
+
+.nav-links {
+    display: none;
+    list-style: none;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .nav-links {
+        display: flex;
+    }
+}
+
+.nav-item {
+    font-weight: 500;
+    color: var(--muted-foreground);
+    transition: color 0.2s;
+}
+
+.nav-item:hover {
+    color: var(--foreground);
+}
+
+.store-badge-header {
+    height: 36px;
+    width: auto;
+}
+
+/* Hero */
+.hero {
+    padding: 5rem 1rem;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: var(--muted-foreground);
+    max-width: 600px;
+    margin: 0 auto 2.5rem;
+}
+
+.store-badge-hero {
+    height: 52px;
+    width: auto;
+}
+
+/* General Sections */
+.section {
+    padding: 4rem 0;
+}
+
+.sectionTitle {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+
+.bg-muted {
+    background: var(--muted);
+}
+
+/* Grid */
+.grid,
+.features-grid,
+.steps-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.card,
+.feature-card,
+.step-item {
+    background: var(--background);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 2rem;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    border-color: var(--primary);
+}
+
+.step-number {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: var(--foreground);
+    color: var(--background);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+/* Page Elements */
+.page-header {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    color: var(--muted-foreground);
+    margin-bottom: 3rem;
+}
+
+.link {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+/* Footer */
+.site-footer {
+    padding: 2rem 0;
+    margin-top: 4rem;
+    border-top: 1px solid var(--border);
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.footer-legal {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-legal a:hover {
+    color: var(--foreground);
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+}

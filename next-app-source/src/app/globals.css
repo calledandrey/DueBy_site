@@ -3,7 +3,7 @@
   --primary: #0066FF;
   --primary-hover: #0052cc;
   --secondary: #eef2ff;
-  
+
   /* Neutral Colors */
   --background: #ffffff;
   --foreground: #09090b;
@@ -11,7 +11,7 @@
   --muted-foreground: #71717a;
   --border: #e4e4e7;
   --input: #e4e4e7;
-  
+
   /* Status */
   --success: #22c55e;
   --error: #ef4444;
@@ -19,7 +19,7 @@
   /* Spacing & Radius */
   --radius: 0.5rem;
   --container-width: 1200px;
-  --header-height: 64px;
+  --header-height: 84px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,7 +40,8 @@
   margin: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 

@@ -9,11 +9,8 @@ import styles from './Header.module.css';
 export function Header() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
-  const [showHeaderCta, setShowHeaderCta] = useState(false);
 
   useEffect(() => {
-    const isHome = pathname === '/';
-
     // Always track scroll for background
     const handleScroll = () => {
       setScrolled(window.scrollY > 10);
@@ -22,40 +19,8 @@ export function Header() {
     window.addEventListener('scroll', handleScroll);
     handleScroll();
 
-    // On non-home pages, always show CTA
-    if (!isHome) {
-      setShowHeaderCta(true);
-      return () => {
-        window.removeEventListener('scroll', handleScroll);
-      };
-    }
-
-    // On home page, hide CTA initially
-    setShowHeaderCta(false);
-
-    let observer: IntersectionObserver | null = null;
-
-    // Small delay to ensure DOM is ready after navigation
-    const timeoutId = setTimeout(() => {
-      const heroCta = document.getElementById('hero-cta');
-
-      if (heroCta) {
-        observer = new IntersectionObserver(
-          ([entry]) => {
-            setShowHeaderCta(!entry.isIntersecting);
-          },
-          { threshold: 0, rootMargin: '-80px 0px 0px 0px' }
-        );
-        observer.observe(heroCta);
-      }
-    }, 50);
-
     return () => {
-      clearTimeout(timeoutId);
       window.removeEventListener('scroll', handleScroll);
-      if (observer) {
-        observer.disconnect();
-      }
     };
   }, [pathname]);
 
@@ -88,7 +53,7 @@ export function Header() {
           </ul>
         </nav>
 
-        <div className={`${styles.actions} ${showHeaderCta ? styles.visible : styles.hidden}`}>
+        <div className={styles.actions}>
           <a
             href="https://apps.apple.com/us/app/invoice-generator/id6742449153"
             target="_blank"
