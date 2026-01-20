@@ -1,4 +1,4 @@
-import { Zap, ShieldCheck, PieChart } from 'lucide-react';
+import { Zap, ShieldCheck, PieChart, BarChart3 } from 'lucide-react';
 import styles from './ValueProps.module.css';
 
 export function ValueProps() {
@@ -32,6 +32,15 @@ export function ValueProps() {
                         <h3 className={styles.title}>Professional layouts</h3>
                         <p className={styles.description}>
                             Clean designs that look good on any device and print well.
+                        </p>
+                    </div>
+                    <div className={styles.card}>
+                        <div className={styles.icon}>
+                            <BarChart3 size={24} />
+                        </div>
+                        <h3 className={styles.title}>Financial reports</h3>
+                        <p className={styles.description}>
+                            Generate financial reports with breakdowns by month, quarter, or year to track revenue and business performance.
                         </p>
                     </div>
                     <div className={styles.card}>

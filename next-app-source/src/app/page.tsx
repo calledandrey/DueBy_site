@@ -2,6 +2,7 @@ import { SoftwareApplication, WithContext } from 'schema-dts';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { Hero } from "@/components/sections/Hero";
 import { ValueProps } from "@/components/sections/ValueProps";
+import { TemplatePreviews } from "@/components/sections/TemplatePreviews";
 import { HubPreviews } from "@/components/sections/HubPreviews";
 import type { Metadata } from 'next';
 
@@ -37,28 +38,9 @@ export default function Home() {
       </div>
       <ValueProps />
 
-      <HubPreviews />
+      <TemplatePreviews />
 
-      {/* How it works Section */}
-      <section className="section">
-        <div className="container">
-          <h2 className="sectionTitle">How it works</h2>
-          <div className="stepsGrid">
-            <div className="stepItem">
-              <span className="stepNumber">1</span>
-              <h3>Add client + items + taxes</h3>
-            </div>
-            <div className="stepItem">
-              <span className="stepNumber">2</span>
-              <h3>Select a template</h3>
-            </div>
-            <div className="stepItem">
-              <span className="stepNumber">3</span>
-              <h3>Export PDF and send</h3>
-            </div>
-          </div>
-        </div>
-      </section>
+      <HubPreviews />
 
       {/* FAQ Section */}
       <section className="section">
