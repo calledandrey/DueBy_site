@@ -12,7 +12,7 @@ export default function InvoiceGeneratorPage() {
     return (
         <div className={styles.container}>
             <header className={styles.header}>
-                <h1 className={styles.h1}>The DueBy App: Professional invoices in your pocket.</h1>
+                <h1 className={styles.h1}>The DueBy App: Professional invoices in your pocket</h1>
                 <p className={styles.subhead}>Generate an invoice that looks legit, is easy to read, and is ready to send—without formatting headaches.</p>
                 <div className={styles.headerActions}>
                     <a

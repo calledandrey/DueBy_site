@@ -25,7 +25,7 @@ export default function TemplatesPage() {
     return (
         <div className="container">
             <header className={styles.header}>
-                <h1 className={styles.title}>Free invoice templates you can customize in minutes.</h1>
+                <h1 className={styles.title}>Free invoice templates you can customize in minutes</h1>
                 <p className={styles.subtitle}>
                     Pick a format, customize, send. Or generate invoices faster inside DueBy.
                 </p>

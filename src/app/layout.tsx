@@ -16,10 +16,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "DueBy - Free Invoice Generator & Templates",
+    default: "DueBy - Free Invoice Generator",
     template: "%s | DueBy"
   },
-  description: "Create professional invoices in seconds with DueBy. Customizable templates and mobile invoicing for freelancers and small businesses.",
+  description: "Create professional invoices in seconds with DueBy. Mobile invoicing for freelancers and small businesses.",
   openGraph: {
     type: 'website',
     locale: 'en_US',

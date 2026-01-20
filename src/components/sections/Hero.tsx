@@ -6,15 +6,12 @@ export function Hero() {
     return (
         <section className={styles.hero}>
             <h1 className={styles.title}>
-                Invoices that get paid—fast.
+                Create and send invoices in minutes
             </h1>
-            <h2 className={styles.headline}>Create and send invoices in minutes.</h2>
             <p className={styles.subtitle}>
-                Build a clean invoice, add your branding, share it with a client, and keep track of what’s due—without messy spreadsheets.
+                Build a clean invoice, add your branding, share it with a client, and keep track of what's due—without messy spreadsheets.
             </p>
-
-            <p className={styles.trustLine}>Works on iPhone, iPad, Mac. No credit card required.</p>
-            <div className={styles.appStoreCta}>
+            <div id="hero-cta" className={styles.appStoreCta}>
                 <a
                     href="https://apps.apple.com/us/app/invoice-generator/id6742449153"
                     target="_blank"

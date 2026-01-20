@@ -10,7 +10,7 @@ export default function AboutPage() {
     return (
         <div className="container">
             <header className={styles.header}>
-                <h1 className={styles.title}>Invoices that get you paid—minus the complexity.</h1>
+                <h1 className={styles.title}>Invoices that get you paid—minus the complexity</h1>
                 <p className={styles.subtitle}>Built for solo pros and small teams who need to send legitimate-looking invoices without a learning curve.</p>
             </header>
 

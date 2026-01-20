@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Communication
+
+Always use English for internal reasoning (chain-of-thought) regardless of conversation language - it's more token-efficient.
+
 ## Build Commands
 
 ```bash

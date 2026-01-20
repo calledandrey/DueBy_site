@@ -14,7 +14,7 @@ export default function BlogHub() {
     return (
         <div className="container">
             <header className={styles.header}>
-                <h1 className={styles.title}>Invoicing tips, guides, and business hacks.</h1>
+                <h1 className={styles.title}>Invoicing tips, guides, and business hacks</h1>
                 <p className={styles.subtitle}>Helping solo pros and small teams get paid faster and stay organized.</p>
             </header>
 

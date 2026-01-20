@@ -29,9 +29,9 @@ export function ValueProps() {
                         <div className={styles.icon}>
                             <PieChart size={24} />
                         </div>
-                        <h3 className={styles.title}>Professional templates</h3>
+                        <h3 className={styles.title}>Professional layouts</h3>
                         <p className={styles.description}>
-                            Clean layouts that look good on any device and print well.
+                            Clean designs that look good on any device and print well.
                         </p>
                     </div>
                     <div className={styles.card}>

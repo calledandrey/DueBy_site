@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import styles from '../legal.module.css';
+import styles from '../page.shared.module.css';
 
 export const metadata: Metadata = {
     title: 'Help & Support | DueBy',
@@ -8,11 +8,11 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
     return (
-        <div className={styles.container}>
-            <h1 className={styles.title}>We’re here to help.</h1>
+        <div className={styles.containerNarrow}>
+            <h1 className={styles.title}>We're here to help</h1>
             <div className={styles.content}>
                 <p>
-                    Questions about an invoice? Need help with the app? We’re here for you.
+                    Questions about an invoice? Need help with the app? We're here for you.
                 </p>
 
                 <h2>Email Us</h2>

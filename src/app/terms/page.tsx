@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import styles from '../legal.module.css';
+import styles from '../page.shared.module.css';
 
 export const metadata: Metadata = {
     title: 'Terms of Service | DueBy',
@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function TermsPage() {
     return (
-        <div className={styles.container}>
+        <div className={styles.containerNarrow}>
             <h1 className={styles.title}>Terms of Service</h1>
             <div className={styles.content}>
                 <p>Effective Date: March 13, 2025</p>

@@ -4,7 +4,7 @@
     "name": "Contractor",
     "title": "Contractor Invoice Template & Generator | DueBy",
     "description": "Create contractor invoices with clear line items, deposits, progress payments, and due dates. Download templates or generate invoices fast.",
-    "h1": "Contractor invoices that clients understand instantly.",
+    "h1": "Contractor invoices that clients understand instantly",
     "scenarios": [
       "Deposit upfront + balance on completion",
       "Progress billing by milestone",
@@ -38,7 +38,7 @@
     "name": "Freelancer",
     "title": "Freelancer Invoice Template & Example | DueBy",
     "description": "Invoice clients as a freelancer with clear deliverables, hourly or fixed pricing, and payment terms. Free templates included.",
-    "h1": "Freelancer invoices for hourly or fixed-fee work.",
+    "h1": "Freelancer invoices for hourly or fixed-fee work",
     "scenarios": [
       "Monthly retainer billing",
       "Hourly rate with time tracking",
@@ -71,7 +71,7 @@
     "name": "Consultant",
     "title": "Consultant Invoice Template | DueBy",
     "description": "Professional invoices for consultants. Handle retainers, travel expenses, and monthly billing.",
-    "h1": "Consultant invoices for professional services.",
+    "h1": "Consultant invoices for professional services",
     "scenarios": [
       "Engagement period billing",
       "Project scope milestones",
@@ -96,7 +96,7 @@
     "name": "Electrician",
     "title": "Electrician Invoice Template | DueBy",
     "description": "Invoices for electricans: call-out fees, labor, and parts warranty.",
-    "h1": "Electrician invoices that spark professionalism.",
+    "h1": "Electrician invoices that spark professionalism",
     "line_items": [
       "Diagnostic & Call-out fee",
       "Installation labor",
@@ -120,7 +120,7 @@
     "name": "Plumber",
     "title": "Plumber Invoice Template | DueBy",
     "description": "Professional plumber invoices for repairs, installs, and emergency calls.",
-    "h1": "Plumbing invoices for all your service calls.",
+    "h1": "Plumbing invoices for all your service calls",
     "line_items": [
       "Service call / Trip fee",
       "Leak repair labor",
@@ -140,7 +140,7 @@
     "name": "Cleaning",
     "title": "Cleaning Service Invoice Template | DueBy",
     "description": "Invoices for recurring cleaning schedules, deep cleans, and add-on services.",
-    "h1": "Clean invoices for your cleaning business.",
+    "h1": "Clean invoices for your cleaning business",
     "line_items": [
       "Regular house clean",
       "Deep cleaning service",
@@ -160,7 +160,7 @@
     "name": "Lawn Care",
     "title": "Lawn Care & Landscaping Invoice | DueBy",
     "description": "Invoices for mowing, edging, and seasonal yard maintenance.",
-    "h1": "Lawn care invoices that keep your business growing.",
+    "h1": "Lawn care invoices that keep your business growing",
     "line_items": [
       "Weekly lawn mowing",
       "Edging & trimming",
@@ -180,7 +180,7 @@
     "name": "Photographer",
     "title": "Photographer Invoice Template | DueBy",
     "description": "Professional invoices for photography sessions, editing, and licensing.",
-    "h1": "Photographer invoices for creative professionals.",
+    "h1": "Photographer invoices for creative professionals",
     "line_items": [
       "Photoshoot session fee",
       "Post-production & editing",
@@ -200,7 +200,7 @@
     "name": "Designer",
     "title": "Designer Invoice Template | DueBy",
     "description": "Invoices for graphic designers, UI/UX, and branding projects.",
-    "h1": "Designer invoices for branding and creative work.",
+    "h1": "Designer invoices for branding and creative work",
     "line_items": [
       "Logo concepts & design",
       "Brand identity guide",
@@ -220,7 +220,7 @@
     "name": "Developer",
     "title": "Developer Invoice Template | DueBy",
     "description": "Invoices for software developers, web dev, and maintenance retainers.",
-    "h1": "Developer invoices for hourly vs milestone work.",
+    "h1": "Developer invoices for hourly vs milestone work",
     "line_items": [
       "Feature implementation",
       "Bug fixes & QA",
@@ -240,7 +240,7 @@
     "name": "Tutor",
     "title": "Tutor Invoice Template | DueBy",
     "description": "Invoices for private tutoring, exam prep, and lesson packages.",
-    "h1": "Tutor invoices for educational services.",
+    "h1": "Tutor invoices for educational services",
     "line_items": [
       "60-min tutoring session",
       "Homework review",
@@ -260,7 +260,7 @@
     "name": "Personal Trainer",
     "title": "Personal Trainer Invoice Template | DueBy",
     "description": "Invoices for fitness training, session packs, and nutrition plans.",
-    "h1": "Personal trainer invoices for fitness pros.",
+    "h1": "Personal trainer invoices for fitness pros",
     "line_items": [
       "1:1 Training session",
       "10-session discounted pack",

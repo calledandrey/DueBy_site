@@ -59,9 +59,6 @@ export default async function IndustryPage({ params }: { params: Promise<{ trade
                             style={{ height: '42px', width: 'auto' }}
                         />
                     </a>
-                    <a href="#templates" className={styles.secondaryCta}>
-                        Get Templates
-                    </a>
                 </div>
             </header>
 
@@ -103,23 +100,6 @@ export default async function IndustryPage({ params }: { params: Promise<{ trade
                             </ul>
                         </div>
                     )}
-                </div>
-            </section>
-
-            <section id="templates" className={styles.section} style={{ backgroundColor: 'var(--background-secondary)', padding: '4rem 2rem', borderRadius: 'var(--radius)' }}>
-                <h2 className={styles.sectionTitle}>{industry.name} Invoice Formats</h2>
-                <div className={styles.formatGrid}>
-                    {[
-                        { name: 'PDF', slug: 'pdf' },
-                        { name: 'Word', slug: 'word' },
-                        { name: 'Excel', slug: 'excel' },
-                        { name: 'Google Docs', slug: 'google-docs' }
-                    ].map(f => (
-                        <Link key={f.slug} href={`/invoice-templates/${f.slug}`} className={styles.formatCard}>
-                            <h3>{f.name}</h3>
-                            <p>Get {industry.name} Template</p>
-                        </Link>
-                    ))}
                 </div>
             </section>
 
